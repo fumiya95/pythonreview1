@@ -128,7 +128,9 @@ L = nested_dict["order"]["items"]
 print(L[0]["name"])
 print(nested_dict["company"]["address"]["city"])
 print(nested_dict["company"]["employees"][1]["position"])
-
+#関数
+print("問題４")
+def email_address_validation 
 
 
 
