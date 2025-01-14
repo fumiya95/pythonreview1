@@ -130,7 +130,18 @@ print(nested_dict["company"]["address"]["city"])
 print(nested_dict["company"]["employees"][1]["position"])
 #関数
 print("問題４")
-def email_address_validation 
+emailA = "abcd@aaa.com"
+emailB = "xyz.ne.jp"
+
+def email_address_validation(email):
+    if "@" in email:
+        return True
+    else:
+        return False
+    
+print(email_address_validation(emailA))
+print(email_address_validation(emailB))
+
 
 
 
