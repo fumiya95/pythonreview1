@@ -3,3 +3,6 @@ def jab():
 
 def straight():
     return "ストレート"
+
+def style():
+    return"右利き"
